@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Blog App</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="flex-wrapper">
+          <div>
+            <h2 class="title">Новый пост</h2>
+            <input
+              class="js-title-input title-input"
+              type="text"
+              placeholder="Напишите заголовок"
+            />
+            <div class="js-title-validation-message validation-message"></div>
+            <textarea
+              class="js-text-input text-input"
+              placeholder="Напишите текст"
+            ></textarea>
+            <div class="js-text-validation-message validation-message"></div>
+            <button class="js-new-post-btn publication-btn">
+              Опубликовать
+            </button>
+          </div>
+          <div>
+            <h2 class="title">Лента</h2>
+            <div class="js-posts posts">Лента пуста...</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

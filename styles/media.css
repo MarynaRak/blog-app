@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+
+    section {
+      width: 100%;
+    }
+    .container {
+      width: 100%;
+    }
+    
+    .flex-wrapper {
+      gap: 90px;
+    }
+    
+    .title {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+    
+    .title-input {
+      margin-bottom: 15px;
+    }
+    
+    input::placeholder {
+      font-size: 10px;
+      padding-left: 5px;
+    }
+    
+    .text-input {
+      margin-bottom: 15px;
+    }
+    
+    textarea::placeholder {
+      font-size: 12px;
+      padding-left: 5px;
+    }
+    
+   
+    
+    .validation-message {
+      font-size: 10px;
+      margin-bottom: 8px;
+    }
+    
+    .posts {
+      font-size: 15px;
+    }
+    
+    
+    .post-title {
+      font-size: 20px;
+    }
+    
+    .post-text {
+      font-size: 15px;
+    }
+    
+    .post {
+      margin-bottom: 19px;
+    }
+}

@@ -1,0 +1,111 @@
+section {
+  height: 800px;
+  background-image: url(../styles/back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 130px;
+}
+
+.title {
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: orange;
+}
+
+.title-input {
+  display: block;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.text-input {
+  display: block;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+textarea::placeholder {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.publication-btn {
+  display: block;
+  width: 300px;
+  height: 45px;
+  line-height: 45px;
+  border: 0;
+  border-radius: 5px;
+  background-color: violet;
+  color: darkmagenta;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.disabled-btn {
+  background-color: rgb(156, 156, 156);
+  color: white;
+}
+
+.validation-message {
+  font-size: 15px;
+  color: lightseagreen;
+  margin-bottom: 10px;
+}
+
+.validation-message-red {
+  color: red;
+}
+
+.posts {
+  color: white;
+  font-size: 20px;
+}
+
+.post-date {
+  font-size: 15px;
+  color: lawngreen;
+}
+
+.post-title {
+  word-break: break-all;
+  font-size: 30px;
+}
+
+.post-text {
+  word-break: break-all;
+  font-size: 18px;
+}
+
+.post {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
